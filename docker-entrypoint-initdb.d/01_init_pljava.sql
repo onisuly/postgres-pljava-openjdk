@@ -1,4 +1,4 @@
-SET pljava.libjvm_location TO '/usr/lib/jvm/java-11-openjdk-amd64/lib/server/libjvm.so';
+SET pljava.libjvm_location TO '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/server/libjvm.so';
 ALTER DATABASE postgres SET pljava.libjvm_location FROM CURRENT;
 ALTER USER postgres SET SEARCH_PATH TO public,sqlj;
 CREATE EXTENSION pljava;
