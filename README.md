@@ -1,6 +1,8 @@
 # postgres-pljava-openjdk
-Based on the image [xxBedy/postgres-pljava](https://github.com/xxBedy/postgres-pljava) but using openjdk as oracle jdk is not redistributable without first accepting the end-user license.
 
-Furthermore, this image has been optimized to be as small as possible. The aforementioned image this was based on currently sits at 1.4GB. This image, after the various optimizations made (we're not squashing), is just shy of 450MB.
+[![Docker Build Status](https://img.shields.io/docker/build/onisuly/postgres-pljava-openjdk.svg)](https://hub.docker.com/r/onisuly/postgres-pljava-openjdk) [![Docker Automated build](https://img.shields.io/docker/automated/onisuly/postgres-pljava-openjdk.svg)](https://hub.docker.com/r/onisuly/postgres-pljava-openjdk) [![Docker Stars](https://img.shields.io/docker/stars/onisuly/postgres-pljava-openjdk.svg)](https://hub.docker.com/r/onisuly/postgres-pljava-openjdk) [![Docker Pulls](https://img.shields.io/docker/pulls/onisuly/postgres-pljava-openjdk.svg)](https://hub.docker.com/r/onisuly/postgres-pljava-openjdk)
 
-Image can be found here: [pegasystems/postgres-pljava-openjdk](https://hub.docker.com/r/pegasystems/postgres-pljava-openjdk/)
+This Dockerfile build an image for [postgres](https://hub.docker.com/_/postgres) with [pljava](https://github.com/tada/pljava) enabled.
+
+## Credits
+Based on the image [pegasystems/postgres-pljava-openjdk](https://hub.docker.com/r/pegasystems/postgres-pljava-openjdk/)
